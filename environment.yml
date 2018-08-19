@@ -1,9 +1,9 @@
-name: carnd-advdl-odlab
+name: carnd-od
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
 dependencies:
-    - python==3.6
+    - python==3.5
     - numpy
     - matplotlib
     - jupyter
@@ -13,4 +13,4 @@ dependencies:
     - imageio==2.1.2
     - pip:
         - moviepy
-        - tensorflow-gpu==1.4
+        - tensorflow==1.4
